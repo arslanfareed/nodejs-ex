@@ -12,7 +12,7 @@ var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
     ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0',
     mongoURL = process.env.OPENSHIFT_MONGODB_DB_URL || process.env.MONGO_URL,
     //mongoURL = "mongodb://userT0B:SYaNkBWD15vP1WOW@mongodb/sampledb";
-    mongoURL = "mongodb://userABP:SpfeqOkmBJKU81atx@mongodb/sampledb";
+    //mongoURL = "mongodb://userABP:SpfeqOkmBJKU81atx@mongodb/sampledb";
     mongoURLLabel = "";
 
 if (mongoURL == null) {
